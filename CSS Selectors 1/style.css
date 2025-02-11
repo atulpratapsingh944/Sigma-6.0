@@ -1,0 +1,22 @@
+/* simple Selectors */
+#heading{
+    background-color: aqua;
+}
+
+.subheading{
+    background-color: yellow;
+
+}
+.sub{
+    color:blueviolet;
+}
+
+div{
+    background-color: orange;
+}
+/* p,span,section{
+    background-color: orchid;
+} */
+ #para,.content,section{
+    background-color: yellowgreen;
+ }

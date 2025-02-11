@@ -1,0 +1,8 @@
+{
+  "key1": "string",
+  "key": 1234567,
+  "key3": true,
+  "key4": null,
+  "key5": {},
+  "key6": []
+}

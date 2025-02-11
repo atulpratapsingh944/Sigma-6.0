@@ -1,0 +1,50 @@
+/* 
+link --> anchor tag used
+active --> anchor/ button tag used
+visited  --> anchor tag used
+firstchild 
+lastchild 
+nth-child() 
+hover 
+first-of-child 
+last-of-child 
+nth-of-type() 
+ */
+
+a:link {
+    color: orange;
+}
+a:visited{
+    color: aqua;
+}
+a:link{
+    color: lawngreen;
+}
+#btn:active{
+    background-color: lightskyblue;
+}
+#btn:hover{
+    color: chartreuse;
+}
+
+ul li:first-child{
+    background-color: aqua;
+}
+ul li:last-child{
+    background-color: blue;
+}
+ul li:nth-child(3){
+    background-color: lightgreen;
+}
+
+
+section div:first-of-type{
+    background-color: purple;
+}
+
+section div:last-of-type{
+    background-color: aqua;
+}
+section div:nth-of-type(2){
+    background-color: chocolate;
+}

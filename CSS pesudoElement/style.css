@@ -1,0 +1,38 @@
+/* 
+::first-line 
+::first-letter
+::after
+::before
+::selection
+::marker
+*/
+p::first-line{
+    color: brown;
+}
+p::first-letter{
+    color: black;
+    font-size: xx-large;
+}
+p::selection{
+    background-color: yellow;
+    color:black;
+}
+
+h1::before{
+    content:" 😜";
+    font-size: 100px;
+}
+h1::after{
+    content: "😊";
+}
+
+ol>li::marker{
+    color: red;
+}
+
+ul>li::marker{
+    color:blueviolet;
+}
+::marker{
+    color: blue;
+}
